@@ -1,0 +1,32 @@
+{
+  "name": "@uncle-bot/db",
+  "version": "0.0.1",
+  "description": "",
+  "main": "out/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DrunkenPoney/uncle-bot-db.git"
+  },
+  "author": "Elie Grenon (DrunkenPoney)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DrunkenPoney/uncle-bot-db/issues"
+  },
+  "homepage": "https://github.com/DrunkenPoney/uncle-bot-db#readme",
+  "devDependencies": {
+    "@types/node": "^8.0.29",
+    "eslint": "^4.19.1",
+    "typescript": "2.5.2",
+    "ts-node": "3.3.0"
+  },
+  "dependencies": {
+    "typeorm": "0.1.16",
+    "reflect-metadata": "^0.1.10",
+    "mysql": "^2.14.1",
+    "mongodb": "^2.2.31"
+  }
+}
